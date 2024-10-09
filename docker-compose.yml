@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: ./game-recipes-app-backend
+    ports:
+      - 10000:10000
+
+  front:
+    build:
+      context: ./game-recipes-app-front
+    ports:
+      - 8001:80
+    depends_on:
+      - backend

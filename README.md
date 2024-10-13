@@ -15,3 +15,8 @@
 
 На Windows:
 `docker-compose.exe up --build -d`
+
+## Ссылки на связанные репозитории
+Front: https://github.com/domster704/game-recipes-app-front
+
+Backend: https://github.com/domster704/game-recipes-app-backend
